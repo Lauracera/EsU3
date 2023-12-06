@@ -1,0 +1,7 @@
+<div *ngIf="currentUser">
+  <h2>Profile</h2>
+  <p>Welcome, {{ currentUser.username }}!</p>
+</div>
+<div *ngIf="!currentUser">
+  <p>Access Denied. Please login or register.</p>
+</div>
